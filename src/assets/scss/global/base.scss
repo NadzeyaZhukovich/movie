@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-width: 320px;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(84,82,79,1) 90%);
+
+  //font-family: $font-base;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  //background-color: #ffffff;
+}
+
+
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 1340px;
+  margin: 0 auto;
+}
